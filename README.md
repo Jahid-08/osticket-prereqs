@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This page outlines how I installed OsTicket and the steps I did to do so.<br />
 
 
 <h2>Video Demonstration</h2>
@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
+- Create Virtual Machines in Azure
 - Item 2
 - Item 3
 - Item 4
