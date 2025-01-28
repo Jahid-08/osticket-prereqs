@@ -61,3 +61,11 @@ Then we will login to the virtual machine from our PC. To get here you click the
 Then you will connect to the virtual machine with the credentials that you would have provided during the initial creation of the virtual machine. After you login you will be prompted with another prompt(yellow warning sign) click yes to officially login to the virtual machine.
 </p>
 <br />
+
+<p>
+<img width="802" alt="image" src="https://github.com/user-attachments/assets/e9a11f05-2bc4-49cd-b298-5964cd033ace" />
+</p>
+<p>
+After we get logged in I downloaded the osTicket intallation files provided from this link. Once you download the files it will appear in the dowloads folder in the virtual machine. [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
+</p>
+<br />
