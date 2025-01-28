@@ -52,3 +52,12 @@ After the virtual machine is created you'll be redirected back to this screen to
 Then we will login to the virtual machine from our PC. To get here you click the windows icon, or press it on the keyboard and type "RDP". There you will see the ability to select "Remote Desktop Connection". Where it says "Computer", you will type the IP address of the computer of the computer you want to connect to. Here you would enter the IP address of the virtual machine we created.
 </p>
 <br />
+
+<p>
+<img width="333" alt="image" src="https://github.com/user-attachments/assets/e708c0bb-263c-4e81-8880-70c756d88caa" />
+<img width="287" alt="image" src="https://github.com/user-attachments/assets/20f49880-c9e7-4319-9eec-b4cbd02f5186" />
+</p>
+<p>
+Then you will connect to the virtual machine with the credentials that you would have provided during the initial creation of the virtual machine. After you login you will be prompted with another prompt(yellow warning sign) click yes to officially login to the virtual machine.
+</p>
+<br />
