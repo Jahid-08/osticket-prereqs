@@ -69,3 +69,13 @@ Then you will connect to the virtual machine with the credentials that you would
 After we get logged in I downloaded the osTicket intallation files provided from this link. Once you download the files it will appear in the dowloads folder in the virtual machine. [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
 </p>
 <br />
+
+<p>
+<img width="696" alt="image" src="https://github.com/user-attachments/assets/5e89e717-9f1b-4b49-add8-27e4ba103063" />
+</p>
+<p>
+  Drag the zip folder file from the downloads section of the file explorer onto the desktop. Then right click the folder and select "Extract All". Then after that there should be two folders on the desktop, the zip folder, and the the folder with all of the files we actually need. 
+  <br/>
+ <strong>Note: You can delete the zip folder since we technically don't need it now, it's completely optional.</strong> 
+</p>
+<br />
