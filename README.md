@@ -49,7 +49,7 @@ After the virtual machine is created, you will be redirected to this screen, whe
 <img width="302" alt="image" src="https://github.com/user-attachments/assets/fb1a93a1-1c73-4f19-a1a5-efd54bb188a3" />
 </p>
 <p>
-Then we will login to the virtual machine from our PC. To get here you click the windows icon, or press it on the keyboard and type "RDP". There you will see the ability to select "Remote Desktop Connection". Where it says "Computer", you will type the IP address of the computer of the computer you want to connect to. Here you would enter the IP address of the virtual machine we created.
+Next, we will log in to the virtual machine from our PC. To begin, click the Windows icon or press it on your keyboard, then type "RDP." Select "Remote Desktop Connection" from the options. In the "Computer" field, enter the IP address of the machine you want to connect to. For this step, you will enter the IP address of the virtual machine we created.
 </p>
 <br />
 
@@ -58,7 +58,7 @@ Then we will login to the virtual machine from our PC. To get here you click the
 <img width="287" alt="image" src="https://github.com/user-attachments/assets/20f49880-c9e7-4319-9eec-b4cbd02f5186" />
 </p>
 <p>
-Then you will connect to the virtual machine with the credentials that you would have provided during the initial creation of the virtual machine. After you login you will be prompted with another prompt(yellow warning sign) click yes to officially login to the virtual machine.
+Then, you will connect to the virtual machine using the credentials you provided during its initial creation. After logging in, you will see a prompt with a yellow warning sign; click "Yes" to complete the login process and access the virtual machine.
 </p>
 <br />
 
@@ -66,7 +66,7 @@ Then you will connect to the virtual machine with the credentials that you would
 <img width="802" alt="image" src="https://github.com/user-attachments/assets/e9a11f05-2bc4-49cd-b298-5964cd033ace" />
 </p>
 <p>
-After we get logged in I downloaded the osTicket intallation files provided from this link. Once you download the files it will appear in the dowloads folder in the virtual machine. [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
+After logging in, I downloaded the osTicket installation files from the provided link. Once downloaded, the files will appear in the "Downloads" folder on the virtual machine. <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">osTicket-Installation-Files.zip</a>
 </p>
 <br />
 
