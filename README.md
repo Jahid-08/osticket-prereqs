@@ -33,7 +33,7 @@ This page outlines how I installed OsTicket and the steps I did to do so.<br />
 <img width="782" alt="image" src="https://github.com/user-attachments/assets/0c4807c9-614c-4f6e-a8a3-b7bbcf0795b9" />
 </p>
 <p>
-Here is the final screen before azure creates the virutal machine we configured. To get here you go to "www.portal.azure.com" There you will login and find "Virtual Machines" or type it in the search bar. Then you click "create" virtual machine and configure the settings. Before Azure creates the virtual machine this validation check will appear. Once it passes the virtual machine will create.
+This is the final screen before Azure creates the virtual machine we configured. To reach this point, navigate to www.portal.azure.com. Log in, locate "Virtual Machines" (or use the search bar to find it), and click "Create Virtual Machine" to configure the necessary settings. Before Azure proceeds with creating the virtual machine, a validation check will appear. Once the validation passes, the virtual machine will be created.
 </p>
 <br />
 
@@ -41,7 +41,7 @@ Here is the final screen before azure creates the virutal machine we configured.
 <img width="1604" alt="image" src="https://github.com/user-attachments/assets/83eaf344-6b11-4d66-bfad-bae256518b3b" />
 </p>
 <p>
-After the virtual machine is created you'll be redirected back to this screen to where you can see the created virtual machine and some details about it such as it's Public IP address, status, location, and resource group.
+After the virtual machine is created, you will be redirected to this screen, where you can view the created virtual machine along with details such as its public IP address, status, location, and resource group.
 </p>
 <br />
 
