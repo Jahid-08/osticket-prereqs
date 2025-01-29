@@ -87,3 +87,11 @@ After logging in, I downloaded the osTicket installation files from the provided
 Next, we will install and enable IIS (Internet Information Services) in Windows with CGI (Common Gateway Interface). IIS is a web server that allows the Windows virtual machine to host websites and web applications, including osTicket. CGI is a feature that enables IIS to run scripts, such as PHP, which is required for osTicket to function properly. Enabling CGI allows PHP scripts to be processed, making the help desk system interactive and dynamic.
 </p>
 <br />
+
+<p>
+<img width="596" alt="image" src="https://github.com/user-attachments/assets/e270e9b8-5516-4390-b83e-8705dbbd68cc" />
+</p>
+<p>
+Next, we’ll install PHP Manager for IIS from the "osTicket-Installation-Files" folder. PHP Manager for IIS is a handy tool that makes it easier to configure and manage PHP settings within Internet Information Services (IIS). In this lab, installing PHP Manager lets us quickly register PHP with IIS, enable or disable extensions, and tweak settings without having to edit configuration files manually. This is important because osTicket runs on PHP, and PHP Manager helps streamline the setup and management process within IIS.
+</p>
+<br />
