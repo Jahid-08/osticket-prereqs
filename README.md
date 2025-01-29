@@ -89,9 +89,12 @@ Next, we will install and enable IIS (Internet Information Services) in Windows 
 <br />
 
 <p>
-<img width="596" alt="image" src="https://github.com/user-attachments/assets/e270e9b8-5516-4390-b83e-8705dbbd68cc" />
+<img width="848" alt="image" src="https://github.com/user-attachments/assets/29c99bd7-a7a1-4199-be27-ca7bbac74c9b" />
 </p>
 <p>
 Next, we’ll install PHP Manager for IIS from the "osTicket-Installation-Files" folder. PHP Manager for IIS is a handy tool that makes it easier to configure and manage PHP settings within Internet Information Services (IIS). In this lab, installing PHP Manager lets us quickly register PHP with IIS, enable or disable extensions, and tweak settings without having to edit configuration files manually. This is important because osTicket runs on PHP, and PHP Manager helps streamline the setup and management process within IIS.
+  <br/>
+  <br/>
+  So once we click onto the folder on the desktop the file explorer will appear and we'll click "osTicket-Installation-Files" and navigate to PHP manager to install it to our virtual machine.
 </p>
 <br />
