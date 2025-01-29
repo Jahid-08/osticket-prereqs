@@ -79,3 +79,11 @@ After logging in, I downloaded the osTicket installation files from the provided
  <strong>Note: You can delete the zip folder since we technically don't need it now, it's completely optional.</strong> 
 </p>
 <br />
+
+<p>
+<img width="596" alt="image" src="https://github.com/user-attachments/assets/e270e9b8-5516-4390-b83e-8705dbbd68cc" />
+</p>
+<p>
+Next, we will install and enable IIS (Internet Information Services) in Windows with CGI (Common Gateway Interface). IIS is a web server that allows the Windows virtual machine to host websites and web applications, including osTicket. CGI is a feature that enables IIS to run scripts, such as PHP, which is required for osTicket to function properly. Enabling CGI allows PHP scripts to be processed, making the help desk system interactive and dynamic.
+</p>
+<br />
