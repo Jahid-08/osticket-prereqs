@@ -98,3 +98,21 @@ Next, we’ll install PHP Manager for IIS from the "osTicket-Installation-Files"
   So once we click onto the folder on the desktop the file explorer will appear and we'll click "osTicket-Installation-Files" and navigate to PHP manager to install it to our virtual machine.
 </p>
 <br />
+
+<p>
+<img width="843" alt="image" src="https://github.com/user-attachments/assets/380c2696-8c45-4186-a82f-ea498dfc0eba" />
+</p>
+<p>
+Next, we’re going to install the Rewrite Module. This helps IIS handle website links properly, making them look cleaner and easier to use. It also ensures that pages load correctly and that everything in osTicket works smoothly when you click around. Plus, it helps with things like redirecting pages and making the site easier to find on search engines.
+  <br/>
+</p>
+<br />
+
+<p>
+<img width="449" alt="image" src="https://github.com/user-attachments/assets/326de6fb-e8bf-4290-880b-8c38b064d5f8" />
+</p>
+<p>
+Next, we will create the PHP directory in our C drive (C:\). The reason we're doing this is so IIS has a dedicated location to find and run PHP, which is essential for osTicket to work. This helps keep things organized and ensures that PHP scripts run smoothly when the system needs them.
+</p>
+<br />
+
