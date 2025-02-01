@@ -131,4 +131,15 @@ Next, once again from the "osTicket-Installation-Files" we're going to install t
 </p>
 <br />
 
+<p>
+<img width="547" alt="image" src="https://github.com/user-attachments/assets/60944a38-d8f2-4dab-bed6-461e74c9435a" />
+<img width="373" alt="image" src="https://github.com/user-attachments/assets/19349af4-caa4-4e6f-9e1f-d96eac764d72" />
+<img width="374" alt="image" src="https://github.com/user-attachments/assets/47d477a9-f38e-462d-b84e-d87308d8d69e" />
+<img width="371" alt="image" src="https://github.com/user-attachments/assets/265d6613-6dc5-4d3a-baad-b4d9c53d9a00" />
+
+<p>
+Next we're going to install  "mysql" from the "osTicket-Installation-Files". The reason for this is beacus mysql acts as the database that stores all the information for osTicket, like user details, support tickets, and settings. It acts like a giant filing cabinet, keeping everything organized so osTicket can quickly find and manage the data it needs. Once we do this we'll also launch the configuration wizard and setup our standard configuration and also create out root password to be able to login and access the database.
+</p>
+<br />
+
 
