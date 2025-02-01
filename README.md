@@ -116,3 +116,19 @@ Next, we will create the PHP directory in our C drive (C:\). The reason we're do
 </p>
 <br />
 
+<p>
+<img width="520" alt="image" src="https://github.com/user-attachments/assets/03e83284-a464-4aee-83b6-5543e0398c8f" />
+</p>
+<p>
+Next, we will open back up the "osTicket-Installation-Files" and unzip the PHP folder within the installation files into the PHP folder we just created in the C drive. The reason we're doing this is because this is where IIS will look for PHP when running osTicket. By placing the files there, we're making sure PHP is properly installed and ready to process scripts. This setup helps IIS recognize and use PHP correctly, allowing osTicket to function as expected.
+</p>
+<br />
+
+<p>
+<img width="446" alt="image" src="https://github.com/user-attachments/assets/2b0c3acf-0ae1-481f-a9ef-cf5761a7776a" />
+<p>
+Next, once again from the "osTicket-Installation-Files" we're going to install the "VC_redist.x86" file. The vcredist file is like a missing puzzle piece that helps PHP and other programs run properly. Some parts of PHP and MySQL need special Microsoft files to work, and installing vcredist makes sure those files are there so everything runs smoothly without errors.
+</p>
+<br />
+
+
