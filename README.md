@@ -159,7 +159,7 @@ Next, we're going to open up IIS(Internet Information Services) manager as an ad
 <img width="644" alt="image" src="https://github.com/user-attachments/assets/35bd9a9d-2bc4-474c-9fdf-955b24ac37de" />
 
 <p>
-Next, we’ll go back to the "osTicket-Installation-Files" folder, unzip the "osTicket-v1.15.8" folder, and extract it to its default location. A new window should open, showing two folders: "scripts" and "upload." We’ll copy the "upload" folder to C:\inetpub\wwwroot, which places osTicket in IIS’s main web directory so it can be accessed through a web browser. After copying the folder, we’ll rename "upload" to "osTicket."
+Next, we’ll go back to the "osTicket-Installation-Files" folder, unzip the "osTicket-v1.15.8" folder, and extract it to its default location. A new window should open, showing two folders: "scripts" and "upload." We’ll copy the "upload" folder to C:\inetpub\wwwroot, which places osTicket in IIS’s main web directory so it can be accessed through a web browser. After copying the folder, we’ll rename "upload" to "osTicket." After these steps we will reload IIS and stop and restart the server.
 </p>
 <br />
 
