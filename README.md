@@ -150,7 +150,16 @@ Next we're going to install  "mysql" from the "osTicket-Installation-Files". The
 Next, we're going to open up IIS(Internet Information Services) manager as an administrator and register PHP from within IIS. Registering PHP in IIS tells the web server where to find PHP so it can properly run PHP scripts. This is important because osTicket relies on PHP to function. Without registering PHP, IIS wouldn’t know how to process the PHP files, and the help desk system wouldn’t work.
   <br/>
   <br/>
-  So we double click PHP manager -> Register a new PHP version. Then we will provide the file path which is where we created the PHP folder in the C drive. After this we wo;; c;ocl tje psticket-vm(on the side pannel) and then stop and restart the server for the effect to take changes
+  So we double click PHP manager -> Register a new PHP version. Then we will provide the file path which is where we created the PHP folder in the C drive. After this we will click on osticket-vm(on the side pannel) and then stop and restart the server for the effect to take changes.
+</p>
+<br />
+
+<p>
+<<img width="737" alt="image" src="https://github.com/user-attachments/assets/7b91b559-db55-4770-af6b-25b8755f38e3" />
+<img width="644" alt="image" src="https://github.com/user-attachments/assets/35bd9a9d-2bc4-474c-9fdf-955b24ac37de" />
+
+<p>
+Next, we’ll go back to the "osTicket-Installation-Files" folder, unzip the "osTicket-v1.15.8" folder, and extract it to its default location. A new window should open, showing two folders: "scripts" and "upload." We’ll copy the "upload" folder to C:\inetpub\wwwroot, which places osTicket in IIS’s main web directory so it can be accessed through a web browser. After copying the folder, we’ll rename "upload" to "osTicket."
 </p>
 <br />
 
