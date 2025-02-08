@@ -167,7 +167,23 @@ Next, we’ll go back to the "osTicket-Installation-Files" folder, unzip the "os
 <img width="775" alt="image" src="https://github.com/user-attachments/assets/e154583d-ad1d-420e-8cd7-109bb9acc378" />
 <img width="887" alt="image" src="https://github.com/user-attachments/assets/45bd5358-37ff-476c-84df-724f739523d4" />
 <p>
-After that, we’ll go back into IIS and launch osTicket from there. In IIS, on the left panel, navigate to osticket-vm → Sites → Default Web Site → osTicket. Click on osTicket, then look at the right panel under "Manage Folder." There, you’ll see "Browse *:80 (http)"—click it, and a new window should pop up, launching osTicket.
+After that, we’ll go back into IIS and launch osTicket from there. In IIS, on the left panel, navigate to osticket-vm → Sites → Default Web Site → osTicket. Click on osTicket, then look at the right panel under "Manage Folder." There, you’ll see "Browse *:80 (http)"—click it, and a new window should pop up, launching osTicket. You can see that we have checks an x-marks. Now we are going to take care of the X's.
+</p>
+<br />
+
+<p>
+<img width="775" alt="image" src="https://github.com/user-attachments/assets/e154583d-ad1d-420e-8cd7-109bb9acc378" />
+<img width="887" alt="image" src="https://github.com/user-attachments/assets/45bd5358-37ff-476c-84df-724f739523d4" />
+<p>
+So we're going to open back up ISS and in the osTicket connections we will double click "PHP manager" and under "PHP Extensions" we will click "Enable or disable and extension. Once here we will scroll to enable these three extensions: 
+  <br/>
+  <ul>
+  <li> php_imap.dll</li>
+  <li>php_intl.dll</li>
+  <li>php_opcache.dll</li>
+</ul>
+<br/>
+The purpose of enabling those extensions is because PHP manager allows PHP to support additional features needed for osTicket to function properly. These extensions provide capabilities like database connectivity (MySQL), file uploads, email handling, and improved performance. Without them, certain parts of osTicket may not work correctly or at all.
 </p>
 <br />
 
