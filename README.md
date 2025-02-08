@@ -172,8 +172,7 @@ After that, we’ll go back into IIS and launch osTicket from there. In IIS, on 
 <br />
 
 <p>
-<img width="775" alt="image" src="https://github.com/user-attachments/assets/e154583d-ad1d-420e-8cd7-109bb9acc378" />
-<img width="887" alt="image" src="https://github.com/user-attachments/assets/45bd5358-37ff-476c-84df-724f739523d4" />
+<img width="612" alt="image" src="https://github.com/user-attachments/assets/4f709b95-d296-4f81-8379-aeb0cfb55585" />
 <p>
 So we're going to open back up ISS and in the osTicket connections we will double click "PHP manager" and under "PHP Extensions" we will click "Enable or disable and extension. Once here we will scroll to enable these three extensions: 
   <br/>
@@ -183,7 +182,7 @@ So we're going to open back up ISS and in the osTicket connections we will doubl
   <li>php_opcache.dll</li>
 </ul>
 <br/>
-The purpose of enabling those extensions is because PHP manager allows PHP to support additional features needed for osTicket to function properly. These extensions provide capabilities like database connectivity (MySQL), file uploads, email handling, and improved performance. Without them, certain parts of osTicket may not work correctly or at all.
+The purpose of enabling those extensions is because PHP manager allows PHP to support additional features needed for osTicket to function properly. These extensions provide capabilities like database connectivity (MySQL), file uploads, email handling, and improved performance. Without them, certain parts of osTicket may not work correctly or at all. After we do this, go back to the osTicket browser and refresh it. It should look like the picture above now.
 </p>
 <br />
 
