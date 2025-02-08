@@ -163,4 +163,12 @@ Next, we’ll go back to the "osTicket-Installation-Files" folder, unzip the "os
 </p>
 <br />
 
+<p>
+<img width="775" alt="image" src="https://github.com/user-attachments/assets/e154583d-ad1d-420e-8cd7-109bb9acc378" />
+<img width="887" alt="image" src="https://github.com/user-attachments/assets/45bd5358-37ff-476c-84df-724f739523d4" />
+<p>
+After we complete that, we will go back into ISS and try to launch osTicket from there. So in ISS on the left hand panel we click osticket-vm -> Sites -> Default Web Site -> osTicket. Click on osTicket and on the right hand pannel we see "Browse *;80 (http)" under "Manage Folder". Click Browse *;80 (http) and a window should pop up and launch osTicket.
+</p>
+<br />
+
 
