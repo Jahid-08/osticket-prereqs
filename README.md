@@ -167,7 +167,7 @@ Next, we’ll go back to the "osTicket-Installation-Files" folder, unzip the "os
 <img width="775" alt="image" src="https://github.com/user-attachments/assets/e154583d-ad1d-420e-8cd7-109bb9acc378" />
 <img width="887" alt="image" src="https://github.com/user-attachments/assets/45bd5358-37ff-476c-84df-724f739523d4" />
 <p>
-After we complete that, we will go back into ISS and try to launch osTicket from there. So in ISS on the left hand panel we click osticket-vm -> Sites -> Default Web Site -> osTicket. Click on osTicket and on the right hand pannel we see "Browse *;80 (http)" under "Manage Folder". Click Browse *;80 (http) and a window should pop up and launch osTicket.
+After that, we’ll go back into IIS and launch osTicket from there. In IIS, on the left panel, navigate to osticket-vm → Sites → Default Web Site → osTicket. Click on osTicket, then look at the right panel under "Manage Folder." There, you’ll see "Browse *:80 (http)"—click it, and a new window should pop up, launching osTicket.
 </p>
 <br />
 
