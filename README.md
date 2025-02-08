@@ -192,7 +192,22 @@ The purpose of enabling those extensions is because PHP manager allows PHP to su
 <img width="263" alt="image" src="https://github.com/user-attachments/assets/2135c79e-8e2d-40bb-868a-3eeccb267282" />
 </p>
 <p>
-Now we're going to go back to the osTicket files in the file explorer and navigate back to the wwwroot folder double click the osTicket folder and navigate to include, and in that folder rename "ost-sampleconfig.php" file  to "ost-config.php". After we do that we're going to assign the file permmisions to the file. To do that right click the file → properties → Security → Advanced and then "disable inheritance". Another window will appear and then "Remove all inherited permissions from this object". Now there should be no permissions which now adds room for us to add some. So click "Add" and then "Select a Principal" and then in the third box type "everyone" and then besides the box click "Check Names", click ok, and then check "Full control" and click ok. On the last two screens make sure you select apply and ok as well.
+Now, we’re going back to the osTicket files in File Explorer and navigating to the wwwroot folder. Open the osTicket folder, then go into the include folder. Inside, rename the "ost-sampleconfig.php" file to "ost-config.php".
+
+Now, we’re going back to the osTicket files in File Explorer and navigating to the **wwwroot** folder. Open the **osTicket** folder, then go into the **include** folder. Inside, rename the file:
+
+- Change `ost-sampleconfig.php` to `ost-config.php`.
+
+### Assigning File Permissions
+
+Next, we’ll assign the correct file permissions:
+
+1. Right-click **ost-config.php** → select **Properties** → go to the **Security** tab → click **Advanced**.
+2. Click **Disable inheritance**, then in the window that appears, select **Remove all inherited permissions from this object**.
+3. Click **Add** → select **Select a Principal**.
+4. In the third box, type **everyone**, then click **Check Names** and press **OK**.
+5. Check the **Full control** box and click **OK**.
+6. On the final two screens, make sure to click **Apply** and then **OK** to save the changes.
 
 </p>
 <br />
