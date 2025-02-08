@@ -186,4 +186,15 @@ The purpose of enabling those extensions is because PHP manager allows PHP to su
 </p>
 <br />
 
+<p>
+<img width="563" alt="image" src="https://github.com/user-attachments/assets/c809229c-06e0-430d-890f-158903f2784d" />
+<img width="566" alt="image" src="https://github.com/user-attachments/assets/3778d39e-bdfc-4e75-9199-b34c38de2921" />
+<img width="263" alt="image" src="https://github.com/user-attachments/assets/2135c79e-8e2d-40bb-868a-3eeccb267282" />
+</p>
+<p>
+Now we're going to go back to the osTicket files in the file explorer and navigate back to the wwwroot folder double click the osTicket folder and navigate to include, and in that folder rename "ost-sampleconfig.php" file  to "ost-config.php". After we do that we're going to assign the file permmisions to the file. To do that right click the file → properties → Security → Advanced and then "disable inheritance". Another window will appear and then "Remove all inherited permissions from this object". Now there should be no permissions which now adds room for us to add some. So click "Add" and then "Select a Principal" and then in the third box type "everyone" and then besides the box click "Check Names", click ok, and then check "Full control" and click ok. On the last two screens make sure you select apply and ok as well.
+
+</p>
+<br />
+
 
