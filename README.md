@@ -310,4 +310,22 @@ Next, we’ll assign the correct file permissions:
 </p>
 <br />
 
+<p>
+ <img width="613" alt="image" src="https://github.com/user-attachments/assets/374e4c8a-de7c-4765-978a-c0e0a992355b" />
+<img width="551" alt="image" src="https://github.com/user-attachments/assets/a7b0bb66-e421-4cd5-85c6-003706ae090b" />
+ <img width="507" alt="image" src="https://github.com/user-attachments/assets/08f207cb-f451-4c6f-8148-9ebda743075c" />
+ <img width="605" alt="image" src="https://github.com/user-attachments/assets/8623ff32-8d7c-47e7-84db-dc87d603fe7d" />
+ <img width="617" alt="image" src="https://github.com/user-attachments/assets/499d05b0-569f-402e-b88e-fafb87a20c02" />
+</p>
+
+<p>
+Once we get there, we will go back to the **osTicket installation files** and install **"HeidiSQL"**.  
+
+This will be used as a graphical interface to connect to the **MySQL server** and create the **osTicket database**.  
+
+This database is where **osTicket** will store all of its data, such as tickets, users, configurations, etc. The **osTicket installation process** requires that this database exists before it can proceed.  After we install **"HeidiSQL"** we'll see this window we're going to make a connection to our database and then setup a database that osTicket can use. We will click "New" in the bottome left hand corner and on the right hand side in "User" and "Password" we'll enter "root" in both because this is the username and password we created for our database when we setup MySQL. After that we will be prompted with a new window where we wil create the database names osTicket. To do that we'll right click "Unnamed" -> Create new -> Database and name it "osTicket". Then click "Open" and we will go back to the osTicket setup browser to fill in those "Database Settings" details. So now we will fill those fields with the "osTicket" databse we just created in Heidi along with the username and password we set as "root" and click Install Now in which you then should get a congratulations screen.
+</p>
+<br />
+
+
 
