@@ -167,22 +167,53 @@ Next, we’ll go back to the "osTicket-Installation-Files" folder, unzip the "os
 <img width="775" alt="image" src="https://github.com/user-attachments/assets/e154583d-ad1d-420e-8cd7-109bb9acc378" />
 <img width="887" alt="image" src="https://github.com/user-attachments/assets/45bd5358-37ff-476c-84df-724f739523d4" />
 <p>
-After that, we’ll go back into IIS and launch osTicket from there. In IIS, on the left panel, navigate to osticket-vm → Sites → Default Web Site → osTicket. Click on osTicket, then look at the right panel under "Manage Folder." There, you’ll see "Browse *:80 (http)"—click it, and a new window should pop up, launching osTicket. You can see that we have checks an x-marks. Now we are going to take care of the X's.
+ 
+After that, we’ll go back into IIS and launch osTicket from there.  
+
+In IIS, on the left panel, navigate to:  
+- `osticket-vm` → `Sites` → `Default Web Site` → `osTicket`  
+
+Click on **osTicket**, then look at the right panel under **"Manage Folder."**  
+
+Find **"Browse *:80 (http)"** and click it.  
+
+A new window should pop up, launching osTicket.  
+
+At this point, you’ll see a mix of **checkmarks** and **X-marks** on the setup page. Now, we’re going to resolve the **X-marks** to ensure osTicket is properly configured.  
+
 </p>
 <br />
 
 <p>
 <img width="612" alt="image" src="https://github.com/user-attachments/assets/4f709b95-d296-4f81-8379-aeb0cfb55585" />
 <p>
-So we're going to open back up ISS and in the osTicket connections we will double click "PHP manager" and under "PHP Extensions" we will click "Enable or disable and extension. Once here we will scroll to enable these three extensions: 
-  <br/>
-  <ul>
-  <li> php_imap.dll</li>
-  <li>php_intl.dll</li>
-  <li>php_opcache.dll</li>
-</ul>
-<br/>
-The purpose of enabling those extensions is because PHP manager allows PHP to support additional features needed for osTicket to function properly. These extensions provide capabilities like database connectivity (MySQL), file uploads, email handling, and improved performance. Without them, certain parts of osTicket may not work correctly or at all. After we do this, go back to the osTicket browser and refresh it. It should look like the picture above now.
+ Enabling PHP Extensions in IIS for osTicket  
+
+We're going to open IIS again and, under the **osTicket** connections, double-click **PHP Manager**.  
+
+### Enabling Required PHP Extensions  
+
+1. Under **PHP Extensions**, click **Enable or disable an extension**.  
+2. Scroll through the list and enable the following extensions:  
+
+   - `php_imap.dll`  
+   - `php_intl.dll`  
+   - `php_opcache.dll`  
+
+### Why These Extensions Are Needed  
+
+Enabling these extensions is essential because **PHP Manager** allows PHP to support additional features required for osTicket to function properly. These extensions provide:  
+
+- **`php_imap.dll`** – Enables email handling for support ticket functionality.  
+- **`php_intl.dll`** – Provides internationalization support for different languages and formats.  
+- **`php_opcache.dll`** – Improves PHP performance by caching script operations.  
+
+Without these, certain osTicket features may not work correctly or at all.  
+
+### Final Step  
+
+After enabling these extensions, go back to the osTicket browser and refresh the page. It should now reflect the correct setup above.  
+
 </p>
 <br />
 
