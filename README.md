@@ -323,7 +323,17 @@ Once we get there, we will go back to the **osTicket installation files** and in
 
 This will be used as a graphical interface to connect to the **MySQL server** and create the **osTicket database**.  
 
-This database is where **osTicket** will store all of its data, such as tickets, users, configurations, etc. The **osTicket installation process** requires that this database exists before it can proceed.  After we install **"HeidiSQL"** we'll see this window we're going to make a connection to our database and then setup a database that osTicket can use. We will click "New" in the bottome left hand corner and on the right hand side in "User" and "Password" we'll enter "root" in both because this is the username and password we created for our database when we setup MySQL. After that we will be prompted with a new window where we wil create the database names osTicket. To do that we'll right click "Unnamed" -> Create new -> Database and name it "osTicket". Then click "Open" and we will go back to the osTicket setup browser to fill in those "Database Settings" details. So now we will fill those fields with the "osTicket" databse we just created in Heidi along with the username and password we set as "root" and click Install Now in which you then should get a congratulations screen.
+This database is where **osTicket** will store all of its data, such as tickets, users, configurations, etc. The **osTicket installation process** requires that this database exists before it can proceed.  
+
+After we install **"HeidiSQL"**, we'll see this window. We're going to make a connection to our database and then set up a database that **osTicket** can use.  
+
+We will click **"New"** in the bottom left-hand corner, and on the right-hand side in **"User"** and **"Password"**, we'll enter **"root"** in both fields because this is the username and password we created for our database when we set up MySQL.  
+
+After that, we will be prompted with a new window where we will create the database named **osTicket**. To do that, we'll right-click **"Unnamed"** → **Create New** → **Database**, and name it **"osTicket"**.  
+
+Then click **"Open"**, and we will go back to the **osTicket** setup browser to fill in those **"Database Settings"** details.  
+
+Now, we will fill those fields with the **"osTicket"** database we just created in HeidiSQL, along with the username and password set as **"root"**, and click **Install Now**. You should then see a **Congratulations** screen.  
 </p>
 <br />
 
