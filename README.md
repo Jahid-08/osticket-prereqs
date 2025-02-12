@@ -316,6 +316,7 @@ Next, we’ll assign the correct file permissions:
  <img width="507" alt="image" src="https://github.com/user-attachments/assets/08f207cb-f451-4c6f-8148-9ebda743075c" />
  <img width="605" alt="image" src="https://github.com/user-attachments/assets/8623ff32-8d7c-47e7-84db-dc87d603fe7d" />
  <img width="617" alt="image" src="https://github.com/user-attachments/assets/499d05b0-569f-402e-b88e-fafb87a20c02" />
+ <img width="693" alt="image" src="https://github.com/user-attachments/assets/8387095f-5eba-4d51-bb19-446c93e63f51" />
 </p>
 
 <p>
@@ -333,7 +334,7 @@ After that, we will be prompted with a new window where we will create the datab
 
 Then click **"Open"**, and we will go back to the **osTicket** setup browser to fill in those **"Database Settings"** details.  
 
-Now, we will fill those fields with the **"osTicket"** database we just created in HeidiSQL, along with the username and password set as **"root"**, and click **Install Now**. You should then see a **Congratulations** screen.  
+Now, we will fill those fields with the **"osTicket"** database we just created in HeidiSQL, along with the username and password set as **"root"**, and click **Install Now**. You should then see a **Congratulations** screen. If we go back to **"HeidiSQL"** and go back to the **osTicket** database we can see the tables of data in which we will use populate.
 </p>
 <br />
 
