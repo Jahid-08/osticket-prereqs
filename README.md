@@ -159,14 +159,21 @@ Next, we're going to open up IIS(Internet Information Services) manager as an ad
 <img width="644" alt="image" src="https://github.com/user-attachments/assets/35bd9a9d-2bc4-474c-9fdf-955b24ac37de" />
 
 <p>
-Next, we’ll go back to the "osTicket-Installation-Files" folder, unzip the "osTicket-v1.15.8" folder, and extract it to its default location. A new window should open, showing two folders: "scripts" and "upload." We’ll copy the "upload" folder to C:\inetpub\wwwroot, which places osTicket in IIS’s main web directory so it can be accessed through a web browser. After copying the folder, we’ll rename "upload" to "osTicket." After these steps we will reload IIS and stop and restart the server.
+Next, we’ll go back to the **osTicket-Installation-Files** folder, unzip the **osTicket-v1.15.8** folder, and extract it to its default location.  
+
+A new window should open, showing two folders: **scripts** and **upload**.  
+
+We’ll copy the **upload** folder to `C:\inetpub\wwwroot`, which places osTicket in IIS’s main web directory so it can be accessed through a web browser.  
+
+After copying the folder, we’ll rename **upload** to **osTicket**.  
+
+After these steps, we will reload IIS and stop and restart the server.  
 </p>
 <br />
 
 <p>
 <img width="775" alt="image" src="https://github.com/user-attachments/assets/e154583d-ad1d-420e-8cd7-109bb9acc378" />
 <img width="887" alt="image" src="https://github.com/user-attachments/assets/45bd5358-37ff-476c-84df-724f739523d4" />
-<p>
  
 After that, we’ll go back into IIS and launch osTicket from there.  
 
@@ -222,6 +229,7 @@ After enabling these extensions, go back to the osTicket browser and refresh the
 <img width="566" alt="image" src="https://github.com/user-attachments/assets/3778d39e-bdfc-4e75-9199-b34c38de2921" />
 <img width="263" alt="image" src="https://github.com/user-attachments/assets/2135c79e-8e2d-40bb-868a-3eeccb267282" />
 </p>
+
 <p>
 Now, we’re going back to the osTicket files in File Explorer and navigating to the wwwroot folder. Open the osTicket folder, then go into the include folder. Inside, rename the "ost-sampleconfig.php" file to "ost-config.php".
 
