@@ -340,6 +340,7 @@ Now, we will fill those fields with the **"osTicket"** database we just created 
 
 <p>
 <img width="502" alt="image" src="https://github.com/user-attachments/assets/b991a1d1-dd42-4cad-8843-c0a4c4e3abe3" />
+ <img width="760" alt="image" src="https://github.com/user-attachments/assets/f4bc4791-ed07-4c6c-b8cf-9113235383f9" />
 <img width="649" alt="image" src="https://github.com/user-attachments/assets/aad6624a-501c-42c0-a273-ab71791ec51f" />
 </p>
 <p>
