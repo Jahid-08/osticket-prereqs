@@ -343,11 +343,15 @@ Now, we will fill those fields with the **"osTicket"** database we just created 
 <img width="649" alt="image" src="https://github.com/user-attachments/assets/aad6624a-501c-42c0-a273-ab71791ec51f" />
 </p>
 <p>
-So this is the installation process of osTicket on our virtual machine. After this process there will be two links we will use to login to osTicket. 
- 1. This link will be used for the ppl running the hehlp desk. They use this link to log in, see all the tickets, respond to customers, and manage the whole system.  http://localhost/osTicket/scp/login.php
+So this is the installation process of **osTicket** on our virtual machine. After completing this process, there will be two links we will use to log in to **osTicket**:
 
- 2.This link will be used for other people who need the help desk support. This is the main entrance for customers (your users). They go here to ask for help (submit a ticket), see if their problem has been solved, or look up answers to common questions. http://localhost/osTicket/
+1. **Help Desk Staff Login**  
+   This link is for the people running the help desk. They use this link to log in, see all the tickets, respond to customers, and manage the whole system.  
+   [http://localhost/osTicket/scp/login.php](http://localhost/osTicket/scp/login.php)
 
+2. **Customer Support Portal**  
+   This link is for users who need help desk support. It serves as the main entrance for customers to submit tickets, check the status of their issues, or find answers to common questions.  
+   [http://localhost/osTicket/](http://localhost/osTicket/)
 </p>
 <br />
 
