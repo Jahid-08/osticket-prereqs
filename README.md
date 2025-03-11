@@ -6,9 +6,6 @@
 This page outlines how I installed OsTicket and the steps I did to do so.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
