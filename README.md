@@ -30,6 +30,7 @@ This page outlines how I installed OsTicket and the steps I did to do so.<br />
 <img width="782" alt="image" src="https://github.com/user-attachments/assets/0c4807c9-614c-4f6e-a8a3-b7bbcf0795b9" />
 </p>
 <p>
+ 
 This is the final screen before **Azure** creates the virtual machine we configured.  
 
 To reach this point, navigate to [**www.portal.azure.com**](http://www.portal.azure.com).  
@@ -44,6 +45,7 @@ Before Azure proceeds with creating the virtual machine, a **validation check** 
 <img width="1604" alt="image" src="https://github.com/user-attachments/assets/83eaf344-6b11-4d66-bfad-bae256518b3b" />
 </p>
 <p>
+ 
 After the virtual machine is created, you will be redirected to this screen, where you can view the created virtual machine along with details such as its **public IP address**, **status**, **location**, and **resource group**.  
 </p>
 <br />
@@ -77,6 +79,7 @@ After logging in, you will see a prompt with a yellow warning sign; click **"Yes
 <img width="802" alt="image" src="https://github.com/user-attachments/assets/e9a11f05-2bc4-49cd-b298-5964cd033ace" />
 </p>
 <p>
+ 
 After logging in, I downloaded the **osTicket installation files** from the provided link.  
 
 Once downloaded, the files will appear in the **"Downloads"** folder on the virtual machine.  
@@ -89,6 +92,7 @@ Once downloaded, the files will appear in the **"Downloads"** folder on the virt
 <img width="696" alt="image" src="https://github.com/user-attachments/assets/5e89e717-9f1b-4b49-add8-27e4ba103063" />
 </p>
 <p>
+ 
  Drag the zip folder file from the **Downloads** section of the **File Explorer** onto the **Desktop**.  
 
 Then, right-click the folder and select **"Extract All"**.  
@@ -105,6 +109,7 @@ After that, there should be two folders on the Desktop:
 <img width="596" alt="image" src="https://github.com/user-attachments/assets/e270e9b8-5516-4390-b83e-8705dbbd68cc" />
 </p>
 <p>
+ 
 Next, we will install and enable **IIS (Internet Information Services)** in Windows with **CGI (Common Gateway Interface)**.  
 
 **IIS** is a web server that allows the **Windows virtual machine** to host websites and web applications, including **osTicket**.  
@@ -119,6 +124,7 @@ Enabling CGI allows **PHP scripts** to be processed, making the help desk system
 <img width="848" alt="image" src="https://github.com/user-attachments/assets/29c99bd7-a7a1-4199-be27-ca7bbac74c9b" />
 </p>
 <p>
+ 
 Next, we’ll install **PHP Manager for IIS** from the **osTicket-Installation-Files** folder.  
 
 **PHP Manager for IIS** is a handy tool that makes it easier to configure and manage PHP settings within **Internet Information Services (IIS)**.  
@@ -136,6 +142,7 @@ This is important because **osTicket** runs on PHP, and **PHP Manager** helps st
 <img width="843" alt="image" src="https://github.com/user-attachments/assets/380c2696-8c45-4186-a82f-ea498dfc0eba" />
 </p>
 <p>
+ 
 Next, we’re going to install the **Rewrite Module**.  
 
 This helps **IIS** handle website links properly, making them look cleaner and easier to use. It also ensures that pages load correctly and that everything in **osTicket** works smoothly when you click around.  
@@ -149,6 +156,7 @@ Plus, it helps with things like **redirecting pages** and making the site easier
 <img width="449" alt="image" src="https://github.com/user-attachments/assets/326de6fb-e8bf-4290-880b-8c38b064d5f8" />
 </p>
 <p>
+ 
 Next, we will create the **PHP** directory in our **C drive (C:\)**.  
 
 The reason we're doing this is to give **IIS** a dedicated location to find and run **PHP**, which is essential for **osTicket** to work.  
@@ -161,6 +169,7 @@ This helps keep things organized and ensures that **PHP scripts** run smoothly w
 <img width="520" alt="image" src="https://github.com/user-attachments/assets/03e83284-a464-4aee-83b6-5543e0398c8f" />
 </p>
 <p>
+ 
 Next, we will open the **osTicket-Installation-Files** and unzip the **PHP** folder within the installation files into the **PHP** folder we just created in the **C drive**.  
 
 The reason we're doing this is that **IIS** looks for PHP in this location when running osTicket. By placing the files there, we're ensuring PHP is properly installed and ready to process scripts.  
@@ -172,6 +181,7 @@ This setup helps **IIS** recognize and use PHP correctly, allowing osTicket to f
 <p>
 <img width="446" alt="image" src="https://github.com/user-attachments/assets/2b0c3acf-0ae1-481f-a9ef-cf5761a7776a" />
 <p>
+ 
 Next, once again from the **osTicket-Installation-Files**, we're going to install the **VC_redist.x86** file.  
 
 The **vcredist** file is like a missing puzzle piece that helps **PHP** and other programs run properly. Some parts of **PHP** and **MySQL** require special Microsoft files to function, and installing **vcredist** ensures those files are available so everything runs smoothly without errors.  
@@ -185,6 +195,7 @@ The **vcredist** file is like a missing puzzle piece that helps **PHP** and othe
 <img width="371" alt="image" src="https://github.com/user-attachments/assets/265d6613-6dc5-4d3a-baad-b4d9c53d9a00" />
 
 <p>
+ 
 Next, we're going to install **MySQL** from the **osTicket-Installation-Files**.  
 
 MySQL acts as the **database** that stores all the information for osTicket, such as user details, support tickets, and settings. Think of it as a **giant filing cabinet**, keeping everything organized so osTicket can quickly find and manage the data it needs.  
@@ -198,6 +209,7 @@ After installing MySQL, we’ll launch the **configuration wizard**, set up the 
 <img width="727" alt="image" src="https://github.com/user-attachments/assets/87583368-98c0-4918-958e-ac872a2c9af6" />
 <img width="724" alt="image" src="https://github.com/user-attachments/assets/6e52bb00-f56a-4f61-9522-d46f3285caee" />
 <p>
+ 
 Next, we're going to open **IIS (Internet Information Services) Manager** as an administrator and register PHP within IIS.  
 
 Registering PHP in IIS tells the web server where to find PHP so it can properly run PHP scripts. This is important because osTicket relies on PHP to function. Without registering PHP, IIS wouldn’t know how to process PHP files, and the help desk system wouldn’t work.  
@@ -215,6 +227,7 @@ Steps to register PHP in IIS:
 <img width="644" alt="image" src="https://github.com/user-attachments/assets/35bd9a9d-2bc4-474c-9fdf-955b24ac37de" />
 
 <p>
+ 
 Next, we’ll go back to the **osTicket-Installation-Files** folder, unzip the **osTicket-v1.15.8** folder, and extract it to its default location.  
 
 A new window should open, showing two folders: **scripts** and **upload**.  
@@ -228,6 +241,7 @@ After these steps, we will reload IIS and stop and restart the server.
 <br />
 
 <p>
+ 
 <img width="775" alt="image" src="https://github.com/user-attachments/assets/e154583d-ad1d-420e-8cd7-109bb9acc378" />
 <img width="887" alt="image" src="https://github.com/user-attachments/assets/45bd5358-37ff-476c-84df-724f739523d4" />
  
@@ -238,7 +252,7 @@ In IIS, on the left panel, navigate to:
 
 Click on **osTicket**, then look at the right panel under **"Manage Folder."**  
 
-Find **"Browse *:80 (http)"** and click it.  
+Find **"Browse** **:80 (http)"** and click it.  
 
 A new window should pop up, launching osTicket.  
 
@@ -317,6 +331,7 @@ Next, we’ll assign the correct file permissions:
 </p>
 
 <p>
+ 
 Once we get there, we will go back to the **osTicket installation files** and install **"HeidiSQL"**.  
 
 This will be used as a graphical interface to connect to the **MySQL server** and create the **osTicket database**.  
@@ -341,6 +356,7 @@ Now, we will fill those fields with the **"osTicket"** database we just created 
 <img width="649" alt="image" src="https://github.com/user-attachments/assets/aad6624a-501c-42c0-a273-ab71791ec51f" />
 </p>
 <p>
+ 
 So this is the installation process of **osTicket** on our virtual machine. After completing this process, there will be two links we will use to log in to **osTicket**:
 
 1. **Help Desk Staff Login**  
